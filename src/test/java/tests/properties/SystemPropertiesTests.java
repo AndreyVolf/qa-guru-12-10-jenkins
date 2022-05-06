@@ -32,6 +32,8 @@ public class SystemPropertiesTests {
 
 
 
+
+
         System.out.println(browser);
         System.out.println(version);
         System.out.println(browserSize);
