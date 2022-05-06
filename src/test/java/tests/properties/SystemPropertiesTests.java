@@ -31,7 +31,7 @@ public class SystemPropertiesTests {
       String browserSize = System.getProperty("version","1920x1080");
 
 
-
+//
 
 
         System.out.println(browser);
