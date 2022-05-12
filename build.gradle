@@ -55,4 +55,10 @@ task demoqa_tests(type: Test) {
         includeTags "demoqa"
 //        excludeTags "simple"
     }
-}
+    task simple(type: Test) {
+        useJUnitPlatform {
+            includeTags "simple"
+//        excludeTags "simple"
+        }
+    }
+    }
