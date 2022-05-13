@@ -1,0 +1,5 @@
+[ {
+  "name" : "Gradle",
+  "type" : "gradle",
+  "buildName" : "qa-guru-12-10-jenkins"
+} ]
