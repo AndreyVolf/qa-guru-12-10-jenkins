@@ -30,6 +30,7 @@ dependencies {
     testImplementation(
             "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
+            "org.aeonbits.owner:owner:1.0.12",
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.slf4j:slf4j-simple:$slf4jVersion"
     )
@@ -40,6 +41,7 @@ tasks.withType(JavaCompile) {
 }
 
 tasks.withType(Test) {
+    systemProperties(System.getProperties())
     useJUnitPlatform()
 
     testLogging {
@@ -55,10 +57,28 @@ task demoqa_tests(type: Test) {
         includeTags "demoqa"
 //        excludeTags "simple"
     }
-    task simple(type: Test) {
-        useJUnitPlatform {
-            includeTags "simple"
-//        excludeTags "simple"
-        }
+}
+
+task simple_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "simple"
     }
+}
+
+task test5(type: Test) {
+    useJUnitPlatform{
+        includeTags "test5"
     }
+}
+
+task system_properties_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "systemProperties"
+    }
+}
+
+task owner_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags "owner"
+    }
+}
