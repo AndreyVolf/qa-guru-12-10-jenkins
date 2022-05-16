@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.properties.SystemPropertiesTests",
+    "children" : [ {
+      "name" : "someTest5()",
+      "uid" : "28de63ce11520a75",
+      "parentUid" : "b29f61ad8b4872007f00323d5911e1d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652359789261,
+        "stop" : 1652359789501,
+        "duration" : 240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b29f61ad8b4872007f00323d5911e1d5"
+  } ],
+  "name" : "suites"
+}

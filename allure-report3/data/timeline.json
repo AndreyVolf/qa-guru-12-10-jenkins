@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "DESKTOP-J91DQPR",
+    "children" : [ {
+      "name" : "5764@DESKTOP-J91DQPR.Test worker(13)",
+      "children" : [ {
+        "name" : "someTest5()",
+        "uid" : "28de63ce11520a75",
+        "parentUid" : "1e1026403f20497c9aaca549e559a22f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652359789261,
+          "stop" : 1652359789501,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e1026403f20497c9aaca549e559a22f"
+    } ],
+    "uid" : "01fe956ce5d2703f37c8504f4e3840f1"
+  } ],
+  "name" : "timeline"
+}

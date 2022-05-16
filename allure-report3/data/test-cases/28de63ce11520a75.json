@@ -1,0 +1,64 @@
+{
+  "uid" : "28de63ce11520a75",
+  "name" : "someTest5()",
+  "fullName" : "tests.properties.SystemPropertiesTests.someTest5",
+  "historyId" : "62c60ca8d9ae53023cb5e113599c4da2",
+  "time" : {
+    "start" : 1652359789261,
+    "stop" : 1652359789501,
+    "duration" : 240
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:tests.properties.SystemPropertiesTests]/[method:someTest5()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-J91DQPR"
+  }, {
+    "name" : "thread",
+    "value" : "5764@DESKTOP-J91DQPR.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "someTest5"
+  }, {
+    "name" : "suite",
+    "value" : "tests.properties.SystemPropertiesTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28de63ce11520a75.json",
+  "parameterValues" : [ ]
+}
